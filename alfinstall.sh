@@ -1,6 +1,6 @@
 #!/bin/bash
 # -------
-# Script for install of Alfresco
+# Script for Install of Alfresco in Ubuntu
 #
 # Distributed under the Creative Commons Attribution-ShareAlike 3.0 Unported License (CC BY-SA 3.0)
 # -------

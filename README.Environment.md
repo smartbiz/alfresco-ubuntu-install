@@ -12,7 +12,7 @@ In this documentation is shared the setup of the development environment for Jav
 | 1 | MAVEN        | 3.3.9        | mvn -v            | /usr/share/maven    |
 | 1 | ANT          | 1.9.6        | ant -v            | /usr/share/ant      |
 | 2 | PostgreSQL   | 9.4.11       | psql --version    | /etc/postgresql     |
-| 3 | Tomcat       |              |         |                   |
+| 3 | Tomcat       | 8.0.38       |         |                   |
 | 5 | ImageMagick  | 6.8.9-9      | convert --version |                   |
 | 9 | FFMPeg       | 3.2.4        | ffmpeg            |                   |
 | 4 | SWFTools     |        |             |                   |
