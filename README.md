@@ -1,27 +1,18 @@
-[![Loftux AB](https://loftux.com/files/static/images/ubuntu_installer.png?ref=ubuntuinstall)](https://loftux.com?ref=ubuntuinstall)
-
 Alfresco Ubuntu Installer
 =======================
 
-This install script and guide was created by Peter Löfgren, Loftux AB.  
+Current version : **Alfresco Community 201702GA (5.2.f Repository,5.2.e Share)**  
+Ubuntu Version : **16.04 LTS**, **14.04**.
 
-Please visit [https://loftux.com](https://loftux.com/en/?ref=ubuntuinstall "loftux.com") (English) [https://loftux.se](https://loftux.se/sv?ref=ubuntuinstall "loftux.se") (Swedish)  for more information.
 
-
-Current version : **Alfresco Community 201702GA (5.2.f Repository,5.2.e Share)** or **LXCommunity ECM LX96**  
-Ubuntu Version : **14.04**, **16.04**.
-
-Alfresco script based install for Ubuntu servers.
+Alfresco Script-based Install for Ubuntu Servers.
 ----------------------------
 
-This script will help you set up an Alfresco server instance with all necessary third party components.  Some will be installed via Ubuntu packages, some directly downloaded. The script will walk you through the process. In the end, there will be some manual tasks to complete the installation.
+This script will help you set up an Alfresco Server instance with all necessary 3rd-party components.  Some will be installed via Ubuntu packages, some directly downloaded. The script will walk you through the process. In the end, there will be some manual tasks to complete the installation.
 
 Alfresco does have installers for Linux, and you may be better off with using those installers if you just want to do a quick test install.
 
 If you intend to run Alfresco in production, this script can help you both with the install. *By examining what the script does, you can also learn what components are involved running an Alfresco instance.* This is a must for any Alfresco administrator who runs Alfresco in production.  
-
-For commercial support with your installation, upgrades and running a production server, contact [Loftux AB](https://loftux.com/contact) (Worldwide).
-
 
 
 Installing
@@ -29,7 +20,7 @@ Installing
 To start the install, in Ubuntu terminal run;  
 
 ```
-curl -O https://raw.githubusercontent.com/loftuxab/alfresco-ubuntu-install/master/alfinstall.sh  
+curl -O https://raw.githubusercontent.com/smartbiz/alfresco-ubuntu-install/master/alfinstall.sh    
 chmod u+x alfinstall.sh
 ./alfinstall.sh
 ```
@@ -47,13 +38,6 @@ There is also lots of documentation at [http://docs.alfresco.com/5.1](http://doc
 More on the components/installation steps.
 =======
 Once the script is downloaded you can modify (if necessary) it to fit your purpose. 
-
-LXCommunity ECM
---------
-You will be asked to select if you want to install LXCommunity ECM or Alfresco Community.  
-
-LXCommunity ECM is a custom build of Alfresco with additional fixes and enhancements and for which you can optionally buy support. You can find more information on this offering at [https://loftux.com/alfresco](https://loftux.se/en/products-and-add-ons/alfresco?ref=ubuntuinstalloffer).
-You can switch between Alfresco Community or LXCommunity ECM as long as they are based on the same schema, see [version overview](https://loftux.se/en/products-and-add-ons/alfresco/alfresco-versions).
 
 
 Alfresco User
@@ -214,9 +198,3 @@ Why does the script use the latest versions/not use Ubuntu packages?
 ---
 
 This combination of packages/downloaded install has been found to work well. But that may not hold true always. If you feel more confident to run a specific version of a component, or want to use a standard Ubuntu package, modify the script. Or skip that part in the install script, and just use this script as an install guide on what needs to be in place for a production server.  
-
-
-License
-===
-Copyright 2013-2017 Loftux AB, Peter Löfgren  
-Distributed under the Creative Commons Attribution-ShareAlike 3.0 Unported License (CC BY-SA 3.0)
