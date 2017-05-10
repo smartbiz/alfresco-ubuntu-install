@@ -70,7 +70,7 @@ In this documentation is shared the setup of the development environment for Jav
 
 # Branch name to pull from server. Use master for stable.
 BRANCH=master
-export BASE_DOWNLOAD=https://raw.githubusercontent.com/loftuxab/alfresco-ubuntu-install/$BRANCH
+export BASE_DOWNLOAD=https://raw.githubusercontent.com/smartbiz/alfresco-ubuntu-install/$BRANCH
 export KEYSTOREBASE=https://svn.alfresco.com/repos/alfresco-open-mirror/alfresco/HEAD/root/projects/repository/config/alfresco/keystore
 
 #Change this to prefered locale to make sure it exists. This has impact on LibreOffice transformations

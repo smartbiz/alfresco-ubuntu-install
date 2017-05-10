@@ -1,5 +1,4 @@
 # Alfresco Tomcat Systemd Startup script
-# Authors: loftux, housni, cuspycode
 
 [Unit]
 Description=Alfresco Community Tomcat service

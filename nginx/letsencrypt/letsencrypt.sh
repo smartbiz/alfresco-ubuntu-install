@@ -2,7 +2,6 @@
 #
 # Script for handling letsencrypt with Alfresco
 #
-# Copyright 2013 Loftux AB, Peter Löfgren
 # Distributed under the Creative Commons Attribution-ShareAlike 3.0 Unported License (CC BY-SA 3.0)
 # -------
 
@@ -17,7 +16,7 @@ export BASECHALLENGELOCATION=/usr/share/nginx
 export APTVERBOSITY="-qq -y"
 # Branch name to pull from server. Use master for stable.
 BRANCH=experimental
-export BASE_DOWNLOAD=https://raw.githubusercontent.com/loftuxab/alfresco-ubuntu-install/$BRANCH
+export BASE_DOWNLOAD=https://raw.githubusercontent.com/smartbiz/alfresco-ubuntu-install/$BRANCH
 
 # Color variables
 txtund=$(tput sgr 0 1)          # Underline

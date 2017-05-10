@@ -2,7 +2,6 @@
 # -------
 # Script for starting/stopping Alfresco Tomcat from systemd
 #
-# Copyright 2013-2016 Loftux AB, Peter Löfgren
 # Distributed under the Creative Commons Attribution-ShareAlike 3.0 Unported License (CC BY-SA 3.0)
 # -------
 

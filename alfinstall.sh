@@ -16,7 +16,7 @@ export DEFAULTYESNO="y"
 
 # Branch name to pull from server. Use master for stable.
 BRANCH=master
-export BASE_DOWNLOAD=https://raw.githubusercontent.com/loftuxab/alfresco-ubuntu-install/$BRANCH
+export BASE_DOWNLOAD=https://raw.githubusercontent.com/smartbiz/alfresco-ubuntu-install/$BRANCH
 export KEYSTOREBASE=https://svn.alfresco.com/repos/alfresco-open-mirror/alfresco/HEAD/root/projects/repository/config/alfresco/keystore
 
 #Change this to prefered locale to make sure it exists. This has impact on LibreOffice transformations
@@ -91,23 +91,22 @@ cd ./alfrescoinstall
 
 echo
 echoblue "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
-echogreen "Alfresco Ubuntu installer by Loftux AB."
+echogreen "Alfresco Ubuntu Installer."
 echogreen "Please read the documentation at"
-echogreen "https://github.com/loftuxab/alfresco-ubuntu-install."
+echogreen "https://github.com/smartbiz/alfresco-ubuntu-install"
 echoblue "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
 echo
 
 echo
 echo "${warn}${bldblu} - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ${warn}"
 echogreen "Do you want to install LXCommunity ECM build of Alfresco Community"
-echogreen "from Loftux AB?"
 echogreen "You can use this in place of Alfresco Community from Alfresco Software"
 echogreen "and optionally later buy a support package."
 echogreen "If you later prefer to use Alfresco Community you can always switch back"
 echogreen "by manually replacing war files."
 echo
-echogreen "Please visit https://loftux.com/alfresco for more information."
-echogreen "You are welcome to contact us at info@loftux.se"
+echogreen "Please visit https://alfresco.smartbiz.vn for more information."
+echogreen "You are welcome to contact us at Sun.SmartBiz@gmail.com"
 echo "${warn}${bldblu} - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ${warn}"
 echo
 read -e -p "Use LXCommunity ECM when installing${ques} [y/n] " -i "$DEFAULTYESNO" uselxcommunity
@@ -903,8 +902,8 @@ echo
 
 echo
 echo "${warn}${bldblu} - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ${warn}"
-echogreen "Thanks for using Alfresco Ubuntu installer by Loftux AB."
-echogreen "Please visit https://loftux.com for more Alfresco Services and add-ons."
-echogreen "You are welcome to contact us at info@loftux.se"
+echogreen "Thanks for using Alfresco Ubuntu Installer."
+echogreen "Please visit https://alfresco.smartbiz.vn for more Alfresco Services and add-ons."
+echogreen "You are welcome to contact us at Sun.SmartBiz@gmail.com"
 echo "${warn}${bldblu} - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ${warn}"
 echo
